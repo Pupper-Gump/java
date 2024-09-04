@@ -47,7 +47,7 @@ public class ConsoleColors {
       return false;
   }
 
-  public static void printColoredLine(String bgColor, String textColor, String toPrint) {
+  public void printColoredLine(String bgColor, String textColor, String toPrint) {
       System.out.println(buildColoredString(bgColor, textColor, toPrint));
   }
 
